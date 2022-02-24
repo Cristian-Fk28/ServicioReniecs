@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32106.194
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServicioReniecs", "ServicioReniecs\ServicioReniecs.csproj", "{4464A6D8-EE10-42AD-A822-6595839E94B6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClienteWEB", "ClienteWEB\ClienteWEB.csproj", "{9FE64DBE-EDDF-435E-8861-7CEE640A633A}"
+	ProjectSection(ProjectDependencies) = postProject
+		{4464A6D8-EE10-42AD-A822-6595839E94B6} = {4464A6D8-EE10-42AD-A822-6595839E94B6}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4464A6D8-EE10-42AD-A822-6595839E94B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4464A6D8-EE10-42AD-A822-6595839E94B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4464A6D8-EE10-42AD-A822-6595839E94B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4464A6D8-EE10-42AD-A822-6595839E94B6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9FE64DBE-EDDF-435E-8861-7CEE640A633A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9FE64DBE-EDDF-435E-8861-7CEE640A633A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9FE64DBE-EDDF-435E-8861-7CEE640A633A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9FE64DBE-EDDF-435E-8861-7CEE640A633A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {04717B47-717D-4445-8DE3-9E9D0EE6A251}
+	EndGlobalSection
+EndGlobal
